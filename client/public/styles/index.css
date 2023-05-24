@@ -1,0 +1,96 @@
+html {
+  background-color: #181820 !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: 8px;
+  scrollbar-color: #272732 #181820;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #181820;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #272732;
+  border-radius: 5px;
+  border: 0px none #181820;
+}
+
+/* PdfViewer fix styles */
+.npm__react-simple-code-editor__textarea {
+  height: 100% !important;
+}
+
+.rpv-core__textbox,
+.rpv-thumbnail__list,
+.rpv-core__inner-page,
+.rpv-default-layout__toolbar,
+.rpv-default-layout__sidebar-headers,
+.rpv-core_tooltip-body,
+.rpv-core__popover-body,
+.rpv-properties__modal,
+.rpv-bookmark__empty,
+.rpv-attachment__empty,
+.rpv-core__splitter,
+.rpv-core__inner-page,
+.rpv-bookmark__container,
+.rpv-core__inner-pages,
+.rpv-core__inner-pages--vertical {
+  background-color: #181820 !important;
+}
+
+.rpv-core__tooltip-body-theme-switch {
+  display: none;
+}
+
+.rpv-core__tooltip-body-theme-switch {
+  display: none !important;
+  border: 1px solid red;
+}
+
+#profileForm th,
+td {
+  background-color: #272732 !important;
+}
+
+#monitorForm th,
+td {
+  background-color: #272732 !important;
+}
+
+.apexcharts-legend {
+  display: flex !important;
+  height: fit-content !important;
+}
+
+.progress-primary {
+  background-color: #656565 !important;
+}
+
+
+/* TODO: Debugar responsividade dos gráficos no mobile */
+/*
+@media only screen and (max-width: 450px) {
+  .apexcharts-legend {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid red;
+  }
+} */
+
+
+/* scroll smooth */
+html {
+  scroll-behavior: smooth;
+}

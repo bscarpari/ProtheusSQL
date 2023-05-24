@@ -1,0 +1,24 @@
+{
+  "name": "protheus",
+  "version": "1.0.0",
+  "description": "Protheus SQL: the aim is to create an interactive and intuitive platform for users to learn and practice SQL commands efficiently.",
+  "main": "./server/index.js",
+  "scripts": {
+    "install": "yarn run install:client && yarn run install:server",
+    "install:client": "cd client && yarn install",
+    "install:server": "cd server && yarn install && yarn add pg --save",
+    "dev:client": "cd client && yarn run dev",
+    "dev:server": "cd server && yarn run dev",
+    "create:db:all": "cd server && yarn run configDB"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bscarpari/protheus.git"
+  },
+  "author": "Bruno Moraes Scarpari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bscarpari/protheus/issues"
+  },
+  "homepage": "https://github.com/bscarpari/protheus#readme"
+}

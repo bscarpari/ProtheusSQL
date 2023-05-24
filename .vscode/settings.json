@@ -1,0 +1,5 @@
+{
+  "prettier.enable": true,
+  "prettier.enableDebugLogs": true,
+  "prettier.requireConfig": true
+}
