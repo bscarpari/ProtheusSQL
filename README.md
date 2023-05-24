@@ -1,5 +1,5 @@
 # 🚀 Protheus SQL
-Projeto destinado a criação de uma ferramenta web interativa voltada para o aprendizado e prática dos comandos SQL.
+Este é o projeto de TCC do aluno Bruno Moraes Scarpari, do Curso Técnico em Informática do IFSul Campus Gravataí. O objetivo deste projeto é criar uma ferramenta web que atue como instrumento de estudo dos comandos SQL.
 
 ## Descrição do projeto
 A ferramenta tem como objetivo auxiliar o usuário a aprender e praticar os comandos SQL de maneira interativa.
