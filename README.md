@@ -1,16 +1,16 @@
 # 🚀 Protheus SQL
-Este é o projeto de TCC do aluno Bruno Moraes Scarpari, do Curso Técnico em Informática do IFSul Campus Gravataí. O objetivo deste projeto é criar uma ferramenta web que atue como instrumento de estudo dos comandos SQL.
+This is the final project of student Bruno Moraes Scarpari, from the Technical Course in Computer Science at IFSul Campus Gravataí. The objective of this project is to create a web tool that acts as a study instrument for SQL commands.
 
 ![Protheus Demo](https://raw.githubusercontent.com/bscarpari/protheusSQL/main/protheus_demo.png)
 
-## Descrição do projeto
-A ferramenta tem como objetivo auxiliar o usuário a aprender e praticar os comandos SQL de maneira interativa.
+## Description
+The tool aims to assist the user in learning and practicing SQL commands in an interactive way.
 
-Ela permite que o usuário execute **consultas SQL** em um banco de dados fictício e veja o resultado dessas consultas **em tempo real**. Além disso, a ferramenta oferece recursos como **Dashboard**, **Agenda** e **Fórum** para que o usuário possa testar, monitorar e repassar seus conhecimentos, afim de fixá-los eficientemente.
+It allows the user to execute **SQL queries** on a fictional database and see the results of these queries in real-time. Additionally, the tool offers features such as a **Dashboard**, **Calendar** and Forum so that the user can test, monitor, and share their knowledge to efficiently solidify it.
 
-Para garantir que o usuário tenha uma experiência de aprendizado completa, a ferramenta também inclui recursos de ajuda e referência, como um guia de sintaxe SQL e uma lista de funções comuns que são exibidas no local de execução dos comandos.
+To ensure that the user has a complete learning experience, the tool also includes help and reference resources, such as an SQL syntax guide and a list of common functions that are displayed in the command execution location.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - 🔧 Node.js
 - 🚀 Express
@@ -19,16 +19,16 @@ Para garantir que o usuário tenha uma experiência de aprendizado completa, a f
 - ⚛️ React
 - 🎨 TailwindCSS
 
-## Instalação e Execução
+## Installation and execution
 
-1. Clone o repositório
-2. Instale as dependências do frontend e backend
-3. Configure o arquivo de conexão com o banco de dados
-4. Crie a estrutura do banco utilizando o comando disponível na pasta do servidor
-5. Inicie o projeto com o comando disponível na pasta raiz
+1. Clone the repository
+2. Install the frontend and backend dependencies
+3. Configure the database connection file
+4. Create the database structure using the command available in the server folder
+5. Start the project with the command available in the root folder
 
-## Autor
+## Author
 Bruno Moraes Scarpari
 
-## Licença
-Este projeto está sob a licença MIT.
+## License
+This project is under the MIT license.
